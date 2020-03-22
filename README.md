@@ -9,7 +9,7 @@ At this time, there is no user configuration available through a config.yml file
 
 # Commands
 ###### fly
-**fp.fly**
+**fp.fly**  
 This command is designed for either zero or one parameter, where the one parameter is the username of an online player. Providing zero 
 arguments will allow the user executing the command to fly. Providing the username of another player as an argument will toggle flight
 for that user.
