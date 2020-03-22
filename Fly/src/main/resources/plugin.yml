@@ -1,0 +1,16 @@
+name: Flight
+version: ${project.version}
+main: xyz.asnes.fly.Fly
+api-version: 1.13
+authors: [Nic]
+description: Allow users to fly.
+website: asnes.xyz
+commands:
+  fly:
+    description: Toggles flight for the user.
+    permission: fp.fly
+    usage: /fly or /fly <user>
+permissions:
+  fp.fly:
+    description: Permission for the user to toggle flight for themselves or other users.
+    default: op
